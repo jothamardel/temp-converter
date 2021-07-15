@@ -77,8 +77,8 @@ class App extends React.Component {
   convert = () => {
 
     const firstValue = Number(this.state.firstValue);
-    const secondValue = Number(this.state.secondValue);
-    const inputValue = firstValue || secondValue;
+    // const secondValue = Number(this.state.secondValue);
+    // const inputValue = firstValue || secondValue;
     
     // get the values of all inputs
     // check from what to what
